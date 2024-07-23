@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.set('strictQuery',true)
-mongoose.connect('mongodb://localhost:27017/Polling_System');
+mongoose.connect('mongodb+srv://ananyadutta606:Password1@cluster0.ytq37ej.mongodb.net/?retryWrites=true&w=majority');
 
 const db = mongoose.connection;
 
